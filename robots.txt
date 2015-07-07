@@ -1,0 +1,43 @@
+##################################################################################
+##################### Creare's robots.txt file for WordPress #####################
+##################################################################################
+ 
+User-agent: *
+Allow: /
+#Disallow: /
+ 
+#######################################
+################ PAGES ################
+#######################################
+ 
+#Disallow: /privacy-policy/
+#Disallow: /terms/
+ 
+#######################################
+#### WORDPRESS DIRECTORIES & FILES ####
+#######################################
+ 
+Disallow: /wp-content/upgrade/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+ 
+#######################################
+############### SITEMAP ###############
+#######################################
+ 
+Sitemap: http://www.domain.co.uk/sitemap_index.xml
+ 
+ 
+#######################################
+########### SCREAMING FROG ############
+#######################################
+ 
+User-agent: Screaming Frog SEO Spider
+Allow: /
+Disallow: /*.gif$
+Disallow: /*.jpg$
+Disallow: /*.png$
+Disallow: /*.bmp$
+Disallow: /*.xml$
+Disallow: /*.css$
+Disallow: /*.js$
